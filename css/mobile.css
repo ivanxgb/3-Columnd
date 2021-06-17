@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+main {
+    width: 100%;
+    padding: 90px 15px;
+}
+
+section {
+    margin: 0 auto;
+    padding: 20px 40px 0;
+    max-width: 330px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+i {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    font-size: 4rem;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-size: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px 0 50px;
+    border: none;
+    font-family: 'Lexend Deca';
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);;
+}
+
+.sedans {
+    border-radius: 10px 10px 0 0;
+
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans i {
+    background-image: url('../assets/images/icon-sedans.svg');
+
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+    font-size: 1.6rem;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);   
+}
+
+.suvs i {
+    background-image: url('../assets/images/icon-suvs.svg');
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+.luxury i {
+    background-image: url('../assets/images/icon-luxury.svg');
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
